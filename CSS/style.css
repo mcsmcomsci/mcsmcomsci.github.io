@@ -19,7 +19,7 @@ nav:hover{
   background:#eaeaea !important;
 }
 
-html {
+#HomePageBody {
    background: linear-gradient(135deg,blue,#5050e9);
 }
 
