@@ -19,10 +19,8 @@ nav:hover{
   background:#eaeaea !important;
 }
 
-body {
+html {
    background: linear-gradient(135deg,purple,#5050e9);
-   width: 100vw;
-   height: 100vh;
 }
 
 .header {
