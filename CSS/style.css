@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: #3b4252;
+    background: linear-gradient(to bottom, #800080, #ff69b4, #1e90ff, #4b0082)
 }
 
 .header {
