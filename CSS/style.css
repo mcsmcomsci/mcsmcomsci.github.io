@@ -19,7 +19,11 @@ nav:hover{
   background:#eaeaea !important;
 }
 
+iframe{
+  height: 100vh;
+}
 #HomePageBody {
+  overflow-y: hidden;
 }
 
 .header {
