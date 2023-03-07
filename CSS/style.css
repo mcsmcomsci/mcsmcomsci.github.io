@@ -15,6 +15,15 @@
   clip-path: polygon(0 0, 100% 50px, 100% 100%, 0% 100%);
   background:#FEC5BB;
 }
+
+#index-bg {
+  position: fixed;
+        top: 0;
+        left: 0
+        object-fit: cover;
+        z-index: -1;
+}
+
 nav:hover{
   background:#eaeaea !important;
 }
