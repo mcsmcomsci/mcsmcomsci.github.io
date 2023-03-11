@@ -1,3 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@300;400;500;600&display=swap');
+
+@keyframes fade-in {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+
+nav:hover{
+   z-index: auto;
+}
+
+.nav-background {
+    background-image: url("https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZGNiMWJkOTgyN2IwYTBhZDlkODI5NDI3YzM4YjE2NzhiZWJhNGYyMSZjdD1n/sRFEa8lbeC7zbcIZZR/giphy.gif");
+    background-size: cover;
+    min-height: 1vh;
+}
+
 video {
   object-fit: cover;
   width: 100vw;
@@ -5,6 +23,7 @@ video {
   position: fixed;
   top: 0;
   left: 0;
+  z-index: -1;
 }
 
 html, body {
@@ -57,7 +76,9 @@ main p {
   margin: 1rem auto;
 }
 
-nav:hover{
-  background:#eaeaea !important;
-  z-index: 1;
+footer {
+  background: rgba(0, 0, 0, 0.66);
+  color: white;
+  position: relative;
+  padding: 1rem;
 }
