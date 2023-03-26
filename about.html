@@ -1,118 +1,96 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta
-      name="description"
-      content="Manhattan Center Computer Science Club Webpage"
-    />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
-      crossorigin="anonymous"
-    />
-    <link href="CSS/about.css" rel="stylesheet" />
-    <link
-      href="x-img/COMPUTER SCIENCE CLUB (2).png"
-      rel="icon"
-      type="image/x-icon"
-    />
-    <title>About Us</title>
-  </head>
-  <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Manhattan Center Computer Science Club Webpage" />
+  <title>MCSM CS Club</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link href="CSS/about.css" rel="stylesheet" />
+  <link href="x-img/COMPUTER SCIENCE CLUB (2).png" rel="icon" type="image/x-icon" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+  <script src="js/index.js"></script>
+
+</head>
+
+<body class="about">
+  <header>
+    <nav class="navbar navbar-expand-lg sticky-top navbar">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#"><b>MCSM Computer Science Club</b></a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
+        <a class="navbar-brand" href="index.html">
+          <img src="x-img/logo.png" alt="" width=50 height=50>
+          <strong>MCSM COMPUTER SCIENCE CLUB.</strong>
+        </a>
+        <a class=" navbar-brand" href="index.html">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
+
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <div class="container">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="about.html"><u>About Us</u></a>
-              </li>
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Projects
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Project A</a></li>
-                  <li><a class="dropdown-item" href="#">Project B</a></li>
-                  <li><hr class="dropdown-divider" /></li>
-                  <li><a class="dropdown-item" href="#">Not Yet</a></li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled">Launching Soon</a>
-              </li>
-            </ul>
-          </div>
-          <form class="d-flex" role="search">
-            <input
-              class="form-control me-2"
-              type="search"
-              placeholder="Search"
-              aria-label="Search"
-            />
-            <button class="btn btn-outline-success" type="submit">
-              Search
-            </button>
-          </form>
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.mcsm.net/">MCSM</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="projects.html" id="navbarDropdown" role="button"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Projects
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Project 1</a>
+                <a class="dropdown-item" href="#">Project 2</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">More Soon!</a>
+            </li>
         </div>
       </div>
     </nav>
-    <div id="clubMeetImage" >
-    <img src="x-img/clubmeet.jpeg" class="img-fluid" alt="...">
-      <p><b>Club Meetup</b></p>
-      </div>
-    <section id="about">
-      <div class="container">
-        <h2>About Us</h2>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quis
-          sapien sed ipsum tincidunt pretium. Proin pharetra elit sed odio
-          efficitur, sit amet interdum neque tincidunt.
-        </p>
-        <p>
-          Nam convallis varius risus. Aenean eget nunc vitae orci consequat
-          convallis. Etiam aliquam purus a leo iaculis, ut sagittis sapien
-          blandit.
-        </p>
-        <ul>
-          <li>
-            <strong>Our Mission:</strong> Lorem ipsum dolor sit amet,
-            consectetur adipiscing elit.
-          </li>
-          <li>
-            <strong>Our Vision:</strong> Nulla quis sapien sed ipsum tincidunt
-            pretium.
-          </li>
-          <li>
-            <strong>Our Values:</strong> Proin pharetra elit sed odio efficitur,
-            sit amet interdum neque tincidunt.
-          </li>
-        </ul>
-      </div>
-    </section>
-  </body>
+  </header>
+  <div class="about-section">
+  <h1>About Us</h1>
+  <p>Welcome to the MCSM Computer Science Club, a community of students at Manhattan Center for Science and Mathematics who are passionate about exploring the world of computer science.</p>
+
+<p>Founded in the fall semester of 2022, our club provides a supportive environment where students can learn new skills, engage in collaborative projects, and explore the exciting field of computer science.</p>
+
+<p>Our club meets every Monday after school from 3:30 PM to 4:30 PM in room 115 at Manhattan Center for Science and Mathematics. During our meetings, we engage in a variety of activities, including coding challenges, project-based learning, guest speaker sessions, and networking events.</p>
+
+<p>Our members come from a diverse range of backgrounds and skill levels, but all share a common interest in technology and its potential to make a positive impact on the world. We welcome students of all levels of experience, whether you are an experienced programmer or just starting to explore the world of computer science.</p>
+
+<p>Join us to be a part of a dynamic community of students who are passionate about technology and eager to learn and grow together.</p>
+</div>
+
+</body>
+
+<footer>
+  <h6>
+    <center>Under development @ Manhattan Center for Science and Mathematics Computer Science Club (Spring Session)
+    </center>
+  </h6>
+</footer>
+
 </html>
