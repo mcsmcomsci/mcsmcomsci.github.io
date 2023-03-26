@@ -32,13 +32,16 @@ nav a {
   color: #ffffff;
 }
 
+
 .navbar-toggler-icon {
-  background-image: url("https://github.com/mcsmcomsci/mcsmcomsci.github.io/blob/gh-pages/x-img/toggle-navbar.png");
+  background-image: url('/x-img/toggle-menu.png');
   background-size: contain;
-  width: 30px;
-  height: 30px;
+  width: 20px;
+  height: 20px;
   display: inline-block;
 }
+
+
 
 video {
   object-fit: cover;
@@ -79,8 +82,11 @@ footer {
   height: 10%;
   background: rgba(0, 0, 0, 0.66);
   color: white;
-  position: relative;
-  padding: 0.5rem;
+  left: 0;
+  bottom: 0;
+  position: fixed;
+  padding: 1.5%;
+  width: 100%;
   font-size: 1vw;
   text-align: center;
 }
