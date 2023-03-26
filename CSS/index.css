@@ -1,19 +1,42 @@
 @import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@300;400;500;600&display=swap');
 
 @keyframes fade-in {
-    from {opacity: 0;}
-    to {opacity: 1;}
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
-
-nav:hover{
-   z-index: auto;
+nav:hover {
+  z-index: auto;
 }
 
-.nav-background {
-    background-image: url("https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZGNiMWJkOTgyN2IwYTBhZDlkODI5NDI3YzM4YjE2NzhiZWJhNGYyMSZjdD1n/sRFEa8lbeC7zbcIZZR/giphy.gif");
-    background-size: cover;
-    min-height: 1vh;
+.navbar-brand {
+  font-family: sans-serif;
+  font-size: 2vh; /* updated font size */
+  color: #ffffff;
+}
+
+nav {
+  font-family: sans-serif;
+  font-size: 2vh; /* updated font size */
+  color: #ffffff;
+}
+
+nav a {
+  font-family: sans-serif;
+  font-size: 2vh; /* updated font size */
+  color: #ffffff;
+}
+
+.navbar-toggler-icon {
+  background-image: url("https://github.com/mcsmcomsci/mcsmcomsci.github.io/blob/gh-pages/x-img/toggle-navbar.png");
+  background-size: contain;
+  width: 30px;
+  height: 30px;
+  display: inline-block;
 }
 
 video {
@@ -26,19 +49,26 @@ video {
   z-index: -1;
 }
 
-html, body {
+html,
+body {
   height: 100%;
 }
 
 html {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-size: 150%;
   line-height: 1.4;
 }
 
+span {
+  color: #ccc;
+  font-weight: bold
+  
+}
+
 body {
   margin: 0;
-  overflow: hidden;
 }
 
 .viewport-header {
@@ -50,7 +80,7 @@ body {
   justify-content: center;
 }
 
-h1 {
+.viewport-header h1 {
   font-family: "Syncopate", sans-serif;
   color: white;
   text-transform: uppercase;
@@ -59,7 +89,8 @@ h1 {
   font-size: 3vw;
   text-align: center;
 }
-h1 span {
+
+.viewport-header h1 span {
   color: white;
   display: block;
   font-size: 5vw;
@@ -72,6 +103,7 @@ main {
   position: relative;
   padding: 1rem;
 }
+
 main p {
   max-width: 600px;
   margin: 1rem auto;
@@ -81,5 +113,5 @@ footer {
   background: rgba(0, 0, 0, 0.66);
   color: white;
   position: relative;
-  padding: 1rem;
+  padding: 0.5rem;
 }
