@@ -1,6 +1,8 @@
+ @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
+
 .about{
   padding:5px 0 5px 0;
-  background:linear-gradient(-45deg, #0b5ac1, #6126cf, #1b98c5, #6a00a3);
+  background:linear-gradient(-45deg, #004db3, #510ecd, #1b98c5, #6a00a3);
 	background-size: 400% 400%;
 	animation: gradient 15s ease infinite;
 	height: 100%;
@@ -35,7 +37,7 @@ nav:hover {
 }
 
 .navbar-brand {
-   font-family: "IBM Plex Mono";
+  font-family: "IBM Plex Mono";
   font-size: 2vh; /* updated font size */
   color: #ffffff;
 }
@@ -68,11 +70,11 @@ html {
 
 .about-section {
   padding: 50px;
-  font-family: "IBM Plex Mono";
   font-size: 1wh;
   text-align: justify;
   background-color: rgba(0, 0, 0, 0.40);
   color: white;
+  font-family: "IBM Plex Mono";
 }
 
 
