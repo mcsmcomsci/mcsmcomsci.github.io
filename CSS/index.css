@@ -34,11 +34,15 @@ nav a {
 
 
 .navbar-toggler-icon {
-  background-image: url('mcsmcomsci.github.io/x-img/toggle-menu.png');
+  background-image: url('/x-img/toggle-menu.png');
   background-size: contain;
   width: 20px;
   height: 20px;
   display: inline-block;
+}
+
+.navbar-nav sm-icons {
+  text-align: right;
 }
 
 
@@ -68,7 +72,7 @@ html {
 .welcome {
   font-family: "IBM Plex Mono";
   position: relative;
-  font-size: 4vh;
+  font-size: 10vh;
   height: 100%;
   text-align: center;
   display: grid;
@@ -89,4 +93,12 @@ footer {
   width: 100%;
   font-size: 1vw;
   text-align: center;
+}
+
+.navbar-nav sm-icons {
+  align-items: right;
+}
+
+.nav-right {
+  float: right;
 }
