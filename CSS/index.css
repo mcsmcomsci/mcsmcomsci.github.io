@@ -70,17 +70,15 @@ html {
 }
 
 .welcome {
-  font-family: "IBM Plex Mono";
+  font-family: "arial";
   position: relative;
-  font-size: 10vh;
-  height: 100%;
+  font-size: 20vh;
+  height: 60vh;
   text-align: center;
   display: grid;
   align-items: center;
-  justify-content: center;
   color: white;
 }
-
 
 footer {
   height: 10%;
@@ -91,7 +89,7 @@ footer {
   position: fixed;
   padding: 1.5%;
   width: 100%;
-  font-size: 1vw;
+  font-size: 1vh;
   text-align: center;
 }
 
